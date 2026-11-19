@@ -1,0 +1,45 @@
+# ---- Maven ----
+target/
+*.class
+
+# ---- JetBrains IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ---- VS Code 个人配置 ----
+# 保留团队共享的扩展推荐，其余本地设置与调试配置不入库
+**/.vscode/*
+!**/.vscode/extensions.json
+
+# ---- Node / 前端构建产物 ----
+node_modules/
+dist/
+dist-ssr/
+*.tsbuildinfo
+.vite/
+
+# ---- pnpm 本地缓存与日志 ----
+.pnpm-store/
+pnpm-store/
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- 本地环境变量文件 ----
+.env
+.env.local
+.env.*.local
+
+# ---- 系统临时文件 ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*~
+*.tmp
+.screenshots/
