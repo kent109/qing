@@ -1,0 +1,6 @@
+{
+    "max_class_methods": 15,
+    "max_class_loc": 300,
+    "impact_warn_at": 50000,
+    "impact_block_at": 200000
+}
